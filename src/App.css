@@ -1,0 +1,981 @@
+@font-face {
+  font-family: 'Galano';
+  src: local('Galano'),
+    url(/assets/fonts/GalanoGrotesque-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GalanoBold';
+  src: local('GalanoBold'),
+    url(/assets/fonts/Rene\Bieder\-\Galano\Grotesque\SemiBold.otf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'GalanoMedium';
+  src: local('GalanoMedium'),
+    url(/assets/fonts/Rene\Bieder\-\Galano\Grotesque\Medium.otf)
+      format('truetype');
+}
+
+body {
+  font-family: Galano;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn-primary {
+  background-color: #7442d3 !important;
+  max-width: 152px !important;
+  height: 50px !important;
+  border-radius: 4px !important;
+}
+
+.bg-primary {
+  background-color: #7442d3 !important;
+  color: white;
+  border-radius: 4px !important;
+}
+
+#get-started {
+  font-family: Galano;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+}
+
+.carousel-inner {
+  overflow: inherit;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.scrolling-wrapper {
+  width: 80%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-link {
+  font-size: 18px;
+  margin-top: 15px;
+  font-family: Galano;
+  font-weight: normal !important;
+  font-stretch: normal;
+  font-style: normal;
+
+  color: #1a181e !important;
+}
+
+.container-fluid {
+  max-width: 1120px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.container-footer {
+  max-width: 1120px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+#hero_illustration {
+  max-width: 544px !important;
+  object-fit: contain !important;
+}
+
+#Get-paid {
+  max-width: 544px !important;
+  font-size: 40px !important;
+  font-weight: 600 !important;
+  font-stretch: normal !important;
+  font-style: normal !important;
+  line-height: 1.2 !important;
+  letter-spacing: normal !important;
+  color: #000000 !important;
+}
+
+#buttonssecondary {
+  max-width: 360px;
+  border-radius: 4px;
+  border: solid 1px #cccccc;
+}
+
+#buttonsprimary {
+  max-width: 168px;
+  border-radius: 4px;
+  background-color: #7442d3;
+}
+
+#buttonsprimary:hover {
+  max-width: 168px;
+  border-radius: 4px;
+  background-color: #5b22c5 !important;
+  color: white;
+}
+
+#flyouts {
+  max-width: 544px !important;
+  font-size: 20px !important;
+  font-weight: normal !important;
+  font-stretch: normal !important;
+  font-style: normal !important;
+  line-height: 1.4 !important;
+  letter-spacing: normal !important;
+  color: #4d4d4d !important;
+  margin-top: 14px;
+}
+
+.Join-over-1868-bloggers {
+  max-width: 832px;
+  font-family: Galano;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: var(--colors-black-12);
+  margin-bottom: 32px;
+}
+
+.slick-slider {
+  display: flex;
+  flex-direction: row;
+}
+
+.items {
+  max-width: 96px;
+  object-fit: contain;
+}
+
+.navbar .container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.nav-link {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+
+#section2 {
+  background-color: #fafafa;
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+
+#section3 {
+  background-color: #ffffff;
+  padding-bottom: 80px;
+}
+
+#section4 {
+  background-color: #fafafa;
+  padding-bottom: 80px;
+}
+
+#section5 {
+  background-color: #ffffff;
+}
+
+.Why-choose-Flyout {
+  max-width: 312px;
+  height: 38px;
+  font-family: Galano;
+  font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+#why-cont {
+  margin-top: 80px !important;
+}
+
+.Getting-started-with-Flyout {
+  max-width: 928px !important;
+  font-family: Galano;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #4d4d4d;
+  margin-bottom: 0px !important;
+}
+
+.Rectangle-5 {
+  border-radius: 8px;
+  box-shadow: 0 4px 16px 0 rgba(26, 24, 30, 0.04);
+  background-color: #ffffff;
+  max-width: 352px;
+}
+
+.card-d {
+  margin-top: 48px;
+}
+
+/* .iconsbrandiconsetup {
+  max-width: 88px !important;
+  height: 88px !important;
+  object-fit: contain !important;
+} */
+
+.Quick-Setup {
+  font-family: Galano;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 40px;
+}
+
+.Quick-Setup3 {
+  font-family: Galano;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 40px;
+}
+
+.Easy-to-use {
+  font-family: Galano;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #4d4d4d;
+  text-align: center;
+}
+
+.Why-choose-Fly6 {
+  font-weight: 600;
+}
+
+.statHead {
+  font-family: Galano;
+  font-size: 64px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+}
+
+.col33 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.Active-publishers {
+  height: 56px;
+  font-family: Galano;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #4d4d4d;
+}
+
+.New-publishers-this-month {
+  font-family: Galano;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #4d4d4d;
+}
+
+.Total-transactions-this-month {
+  max-width: 500px;
+  font-family: Galano;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #4d4d4d;
+}
+
+.Offer-publishers-got-this-month {
+  height: 56px;
+  font-family: Galano;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #4d4d4d;
+}
+
+#FaceDesc {
+  max-width: 640px;
+  font-family: Galano;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.iconstestimonialscomma {
+  max-width: 88px;
+
+  object-fit: contain;
+  justify-content: start;
+}
+
+.Ravi-Tamada {
+  max-width: 116px;
+  height: 26px;
+  font-family: Galano;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #4d4d4d;
+}
+
+.Founder-Androidhive {
+  max-width: 206px;
+  height: 26px;
+  font-family: Galano;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: var(--colors-black-50);
+}
+
+.Rectangle-13 {
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+  background: url('./img/bg.png');
+  background-size: cover !important;
+}
+
+.text-reset {
+  font-size: 16px;
+}
+
+#col-sms {
+  max-width: '12.499999995%' !important;
+  flex-basis: '12.499999995%' !important;
+}
+
+.Get-started-with-Flyout-today {
+  font-family: Galano;
+  font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Flyout-is-a-free {
+  height: 26px;
+  font-family: GalanoGrotesque;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #f2f2f2;
+}
+
+.buttonsprimary {
+  max-width: 168px;
+  height: 54px;
+  border-radius: 4px;
+  background-color: #ea6f57;
+  color: white;
+}
+
+.buttonssecondary {
+  max-width: 270px;
+  height: 54px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  color: white;
+}
+
+.footerLink {
+  font-family: Galano;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #4d4d4d;
+  cursor: pointer;
+}
+
+.footerBorder {
+  max-width: 1120px;
+  height: 1px;
+  background-color: #cccccc;
+  margin-top: 48px;
+}
+
+.FLYOUT-2020 {
+  font-family: Galano;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #808080;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.col-md-1-5 {
+  max-width: 12, 5%;
+}
+
+.col-lg-1-5 {
+  max-width: 12, 5%;
+}
+
+@media (max-width: 1024px) {
+  .container-fluid {
+    max-width: 1024px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  #hero_illustration {
+    max-width: 250px;
+    height: 420px;
+    object-fit: contain;
+  }
+
+  #footerCover {
+    object-fit: contain;
+    border-radius: 12px;
+    background: url('./img/bg.png');
+  }
+
+  #Get-paid {
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: 1.2 !important;
+    letter-spacing: normal !important;
+    color: #000000 !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container-fluid {
+    max-width: 1024px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  #hero_illustration {
+    max-width: 250px;
+    height: 420px;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 1295px) {
+  .container-fluid {
+    max-width: 1295px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  #hero_illustration {
+    max-width: 250px;
+    height: 420px;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 1156px) {
+  .container-fluid {
+    max-width: 1206px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+
+  .navbar .container-fluid {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  #hero_illustration {
+    max-width: 250px;
+    height: 420px;
+    object-fit: contain;
+  }
+
+  #section4Column {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #section4 {
+    height: 1200px;
+    background-color: #fafafa;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container-fluid {
+    max-width: 1206px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+
+  .navbar .container-fluid {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .nav-link {
+    font-size: 17px;
+    margin-top: 15px;
+    line-height: 1.44;
+    font-family: Galano;
+    font-weight: normal !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    color: #1a181e !important;
+  }
+
+  #hero_illustration {
+    max-width: 220px;
+    height: 420px;
+    object-fit: contain;
+  }
+
+  #section4Column {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #section4 {
+    height: 1200px;
+    background-color: #fafafa;
+  }
+
+  .Quick-Setup {
+    font-family: Galano;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 40px;
+  }
+
+  .Quick-Setup3 {
+    font-family: Galano;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 40px;
+  }
+
+  /* .Rectangle-13 {
+    width: 1120px;
+    height: 302px;
+    object-fit: contain;
+    border-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding-left: 0px !important;
+    background: url('./img/bg.png');
+    background-size: cover !important;
+  } */
+}
+
+@media (max-width: 1110px) {
+  .container-fluid {
+    max-width: 1206px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+
+  .navbar .container-fluid {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .nav-link {
+    font-size: 17px;
+    margin-top: 15px;
+    line-height: 1.44;
+    font-family: Galano;
+    font-weight: normal !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    color: #1a181e !important;
+  }
+
+  #hero_illustration {
+    max-width: 220px;
+    height: 420px;
+    object-fit: contain;
+  }
+
+  #section4Column {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #section4 {
+    height: 1200px;
+    background-color: #fafafa;
+  }
+  /* 
+  .Rectangle-13 {
+    width: 1000px;
+    height: 302px;
+    object-fit: contain;
+    border-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding-left: 0px !important;
+    background: url('./img/bg.png');
+    background-size: cover !important;
+  } */
+
+  .Rectangle-5 {
+    width: 352px;
+    height: 372px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px 0 rgba(26, 24, 30, 0.04);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 359px) {
+  .Get-started-with-Flyout-today {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .Flyout-is-a-free {
+  }
+
+  .Rectangle-5 {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px 0 rgba(26, 24, 30, 0.04);
+    background-color: #ffffff;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .container-fluid {
+    max-width: 320px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  .navbar .container-fluid {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .nav-link {
+    font-size: 17px;
+    margin-top: 15px;
+    line-height: 1.44;
+    font-family: Galano;
+    font-weight: normal !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    color: #1a181e !important;
+  }
+
+  #hero_illustration {
+    max-width: 220px;
+    height: 420px;
+    object-fit: contain;
+  }
+
+  #section4Column {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #section4 {
+    height: 1200px;
+    background-color: #fafafa;
+  }
+
+  /* .Rectangle-13 {
+    width: 1000px;
+    height: 302px;
+    object-fit: contain;
+    border-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding-left: 0px !important;
+    background: url('./img/bg.png');
+    background-size: cover !important;
+  } */
+
+  /* .Rectangle-5 {
+    width: 352px;
+    height: 372px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px 0 rgba(26, 24, 30, 0.04);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column !important;
+  } */
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Join-over-1868-bloggers {
+    margin-top: -30px;
+    max-width: 832px;
+    font-family: Galano;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: var(--colors-black-12);
+    margin-bottom: 32px;
+  }
+
+  #flyouts {
+    max-width: 544px !important;
+    height: 80px !important;
+    font-size: 20px !important;
+    font-weight: normal !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: 1.4 !important;
+    letter-spacing: normal !important;
+    color: #4d4d4d !important;
+    margin-top: 14px;
+  }
+
+  .Rectangle-5 {
+    margin-bottom: 20px;
+  }
+
+  .iconsbrandiconsetup {
+    height: 88px !important;
+    object-fit: contain !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+    max-width: 768px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  #hero_illustration {
+    max-width: 250px;
+    object-fit: contain;
+  }
+
+  #Get-paid {
+    margin-top: 20px;
+    height: 70px !important;
+    font-size: 25px !important;
+    text-align: center;
+    font-weight: 600 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: 1.2 !important;
+    letter-spacing: normal !important;
+    color: #000000 !important;
+  }
+
+  #flyouts {
+    max-width: 544px !important;
+    height: 90px !important;
+    font-size: 20px !important;
+    font-weight: normal !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: 1.4 !important;
+    letter-spacing: normal !important;
+    color: #4d4d4d !important;
+    margin-top: 14px;
+  }
+}
+
+@media (max-width: 411px) {
+  #Get-paid {
+    font-size: 23px !important;
+    font-weight: 600 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: 1.2 !important;
+    letter-spacing: normal !important;
+    color: #000000 !important;
+  }
+
+  .Get-started-with-Flyout-today {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .Flyout-is-a-free {
+  }
+
+  .Rectangle-5 {
+    max-width: 100%;
+  }
+
+  .container-fluid {
+    max-width: 405px;
+    /* padding-left: 30px !important;
+    padding-right: 30px !important; */
+  }
+
+  .navbar .container-fluid {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .nav-link {
+    font-size: 17px;
+    margin-top: 15px;
+    line-height: 1.44;
+    font-family: Galano;
+    font-weight: normal !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    color: #1a181e !important;
+  }
+
+  #hero_illustration {
+    max-width: 220px;
+    height: 420px;
+    object-fit: contain;
+  }
+
+  #section4Column {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #section4 {
+    height: 1200px;
+    background-color: #fafafa;
+  }
+
+  /* .Rectangle-13 {
+    width: 1000px;
+    height: 302px;
+    object-fit: contain;
+    border-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding-left: 0px !important;
+    background: url('./img/bg.png');
+    background-size: cover !important;
+  } */
+
+  .Rectangle-5 {
+    width: 352px;
+    height: 372px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px 0 rgba(26, 24, 30, 0.04);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Join-over-1868-bloggers {
+    margin-top: -30px;
+    max-width: 832px;
+    font-family: Galano;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: var(--colors-black-12);
+    margin-bottom: 32px;
+  }
+
+  #flyouts {
+    font-size: 22px !important;
+    font-weight: normal !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: 1.4 !important;
+    letter-spacing: normal !important;
+    color: #4d4d4d !important;
+    margin-top: 14px;
+    margin-bottom: 24px;
+  }
+
+  .Rectangle-5 {
+    margin-bottom: 20px;
+  }
+
+  .iconsbrandiconsetup {
+    height: 88px !important;
+    object-fit: contain !important;
+  }
+}
