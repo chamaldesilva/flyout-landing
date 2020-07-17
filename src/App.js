@@ -644,14 +644,14 @@ function App() {
         </div>
       </section>
 
-      <section className="row mt-6 text-center  px-lg-14">
+      <section className="row mt-6 text-center mt-10 mt-md-7 px-lg-14">
         <div
           style={{
             paddingTop: '65px',
             paddingBottom: '63px',
             marginBottom: '81px',
           }}
-          className="col Rectangle-13 mt-10 mt-md-0"
+          className="col Rectangle-13 "
         >
           <h2 className="Get-started-with-Flyout-today ">
             Get started with Flyout today
