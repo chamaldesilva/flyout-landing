@@ -651,7 +651,7 @@ function App() {
             paddingBottom: '63px',
             marginBottom: '81px',
           }}
-          className="col Rectangle-13 "
+          className="col Rectangle-13 mt-10 mt-md-0"
         >
           <h2 className="Get-started-with-Flyout-today ">
             Get started with Flyout today
